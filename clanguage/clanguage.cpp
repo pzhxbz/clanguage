@@ -1,0 +1,87 @@
+
+
+#include "stdafx.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#define QAQ int
+#define Orz char
+#define FAQ printf
+#define deep "Please "
+#define dark "input "
+#define fantasy "flag:"
+#define _A_ scanf
+#define __ main()
+#define _ =
+#define ___ aaa(char* b)
+#define I(a,b,c) (a^b^c)
+#define J(a,b,c) (a+b+c)
+#define K(a,b,c) (a-b-c)
+#define U_U ++
+#define T_T(a,b) if(a==b)
+
+
+char p__p[1024] = { 0 };
+QAQ ___
+{
+	QAQ ppp _ 0,pp _ 0;
+	Orz pppp[] _{ 0,0,0,0x21, 0x5, 0x32, 0x43, 0x54, 0x21, 0x8, 0x32, 0x43, 0x54, 0x21, 0x15, 0x32, 0x43, 0x54, 0x21, 0x15, 0x32, 0x43, 0x54, 0x21, 0x1d, 0x32, 0x43, 0x54, 0x21, 0x7, 0x32, 0x43, 0x54, 0x21, 0x39, 0x32, 0x43, 0x54, 0x21, 0x55, 0x32, 0x43, 0x54, 0x21, 0x27, 0x32, 0x43, 0x54, 0x21, 0x15, 0x32, 0x43, 0x54, 0x21, 0x1f, 0x32, 0x43, 0x54, 0x21, 0x39, 0x32, 0x43, 0x54, 0x21, 0x30, 0x32, 0x43, 0x54, 0x21, 0xb, 0x32, 0x43, 0x54, 0x21, 0x1b, 0x32, 0x43, 0x54 ,0x65};
+	QAQ p____ _ 0;
+	QAQ i_ _ 0;
+g0:
+	QAQ p__ _ pppp[p____ U_U];
+	T_T(p__, 0)
+		goto g0;
+	T_T(p__, 0x21)
+		goto g666;
+	T_T(p__, 0x32)
+		goto g250;
+	T_T(p__, 0x43)
+		goto g6666;
+	T_T(p__, 0x54)
+		goto g2333;
+	T_T(p__, 0x65)
+		goto g23333;
+g250:
+	pp _ p__p[i_ U_U];
+	goto g999;
+g6666:
+	ppp _ I(ppp, 0x66, pp);
+	goto g0;
+g666:
+	ppp _ pppp[p____ U_U];
+	goto g999;
+g999:
+	goto g0;
+
+g2333:
+	T_T(ppp, 0)
+		goto g0;
+g23333:
+
+	return ppp;
+}
+
+QAQ __
+{
+	FAQ(deep);
+	FAQ(dark);
+	FAQ(fantasy);
+	_A_("%s", p__p);
+	T_T(strlen(p__p), 15)
+		goto start;
+	goto end;
+start:
+	QAQ p _ aaa(p__p);
+	T_T(p, 0)
+	{
+		FAQ("\no yes\n");
+		system("pause");
+		return 0;
+	}
+end:
+	FAQ("\nnonono\n");
+	system("pause");
+	return 0;
+}
+
